@@ -86,8 +86,7 @@ describe('Locale Provider', () => {
           <App />
         </LocaleProvider>
       );
-      const DatePickerPlaceholder = wrapper.find('.ant-calendar-picker-input').at(0).node.getAttribute('placeholder');
-      expect(DatePickerPlaceholder).toBe(locale.DatePicker.lang.placeholder);
+      expect(wrapper).toMatchSnapshot();
     });
   });
 

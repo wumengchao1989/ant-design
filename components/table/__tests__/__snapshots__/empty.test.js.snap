@@ -102,12 +102,7 @@ exports[`Table renders empty table 1`] = `
           <div
             class="ant-table-placeholder"
           >
-            <span>
-              <i
-                class="anticon anticon-frown-o"
-              />
-              暂无数据
-            </span>
+            No data
           </div>
         </div>
       </div>
@@ -406,12 +401,7 @@ exports[`Table renders empty table with fixed columns 1`] = `
             <div
               class="ant-table-placeholder ant-table-placeholder-fixed-columns"
             >
-              <span>
-                <i
-                  class="anticon anticon-frown-o"
-                />
-                暂无数据
-              </span>
+              No data
             </div>
           </div>
           <div
